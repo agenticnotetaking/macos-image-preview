@@ -52,7 +52,7 @@ final class ImageWindowController: NSWindowController, NSWindowDelegate {
         container.addSubview(hc)
         NSLayoutConstraint.activate([
             hc.topAnchor.constraint(equalTo: container.topAnchor, constant: 8),
-            hc.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -8),
+            hc.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 8),
         ])
         self.hoverControls = hc
 

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:macos-preview}",
+      "name": "Debug StickyImage",
+      "target": "StickyImage",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug StickyImage"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:macos-preview}",
+      "name": "Release StickyImage",
+      "target": "StickyImage",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release StickyImage"
+    }
+  ]
+}
