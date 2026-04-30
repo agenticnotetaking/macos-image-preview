@@ -3,6 +3,11 @@
 A tiny macOS app that pins images as borderless, always-on-top, resizable
 floating windows — like sticky notes for reference images.
 
+<img width="839" height="544" alt="Context menu" src="https://github.com/user-attachments/assets/a76acd81-510f-4995-9ba5-b7812ad36666" />
+
+<img width="905" height="644" alt="Opened" src="https://github.com/user-attachments/assets/c8b52b22-dd6d-439c-aac1-921b1e7c0d57" />
+
+
 ## Build
 
 ```sh
